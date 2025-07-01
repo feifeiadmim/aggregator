@@ -302,7 +302,7 @@
         }
     },
     "update": {
-        "enable": true,
+        "enable": false,
         "interval": 21600,
         "strict": false
     },
