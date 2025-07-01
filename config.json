@@ -1,0 +1,310 @@
+{
+    "domains": [
+        {
+            "name": "混合订阅源",
+            "domain": "mixed-sources",
+            "enable": true,
+            "sub": [
+                "https://ohayoo-pm.hf.space/api/v1/subscribe?token=uosdu8loq6i560zb&target=clash&list=1",
+                "https://ohayoo-pm.hf.space/api/v1/subscribe?token=uosdu8loq6i560zb&target=clash&list=1",
+                "https://ohayoo-pm.hf.space/api/v1/subscribe?token=uosdu8loq6i560zb&target=clash&list=1",
+                "https://ohayoo-pm.hf.space/api/v1/subscribe?token=uosdu8loq6i560zb&target=clash&list=1",
+                "https://ohayoo-pm.hf.space/api/v1/subscribe?token=uosdu8loq6i560zb&target=clash&list=1",
+                "https://ohayoo-pm.hf.space/api/v1/subscribe?token=uosdu8loq6i560zb&target=clash&list=1",
+                "https://ohayoo-pm.hf.space/api/v1/subscribe?token=uosdu8loq6i560zb&target=clash&list=1",
+                "https://ohayoo-pm.hf.space/api/v1/subscribe?token=uosdu8loq6i560zb&target=clash&list=1",
+                "https://ohayoo-pm.hf.space/api/v1/subscribe?token=uosdu8loq6i560zb&target=clash&list=1",
+                "https://ohayoo-pm.hf.space/api/v1/subscribe?token=uosdu8loq6i560zb&target=clash&list=1",
+                "https://ohayoo-pm.hf.space/api/v1/subscribe?token=uosdu8loq6i560zb&target=clash&list=1",
+                "https://ohayoo-pm.hf.space/api/v1/subscribe?token=uosdu8loq6i560zb&target=clash&list=1",
+                "https://ohayoo-pm.hf.space/api/v1/subscribe?token=uosdu8loq6i560zb&target=clash&list=1",
+                "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt",
+                "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt",
+                "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt",
+                "https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt",
+                "https://raw.githubusercontent.com/darknessm427/V2ray-Sub-Collector/refs/heads/main/Darkness%20Sub3.txt",
+                "https://raw.githubusercontent.com/lagzian/IranConfigCollector/main/Base64.txt",
+                "https://raw.githubusercontent.com/V2RAYCONFIGSPOOL/V2RAY_SUB/refs/heads/main/v2ray_configs.txt",
+                "https://raw.githubusercontent.com/HosseinKoofi/GO_V2rayCollector/main/mixed_iran.txt",
+                "https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt",
+                "https://raw.githubusercontent.com/rango-cfs/NewCollector/refs/heads/main/v2ray_links.txt"
+            ],
+            "push_to": ["main"],
+            "liveness": true,
+            "rename": "",
+            "include": "",
+            "exclude": "过期|剩余|流量|expire|traffic|remaining|时间|官网",
+            "rate": 3.0,
+            "count": 1
+        },
+        {
+            "name": "VMess专用源",
+            "domain": "vmess-sources",
+            "enable": true,
+            "sub": [
+                "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/vmess.txt",
+                "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/vmess.txt",
+                "https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/vmess_iran.txt",
+                "https://raw.githubusercontent.com/10ium/ScrapeAndCategorize/refs/heads/main/output_configs/Vmess.txt"
+            ],
+            "push_to": ["main"],
+            "liveness": true,
+            "rename": "VMess",
+            "exclude": "过期|剩余|流量|expire|traffic",
+            "rate": 2.5
+        },
+        {
+            "name": "VLESS专用源",
+            "domain": "vless-sources", 
+            "enable": true,
+            "sub": [
+                "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/vless.txt",
+                "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/vless.txt",
+                "https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/vless_iran.txt"
+            ],
+            "push_to": ["main"],
+            "liveness": true,
+            "rename": "VLESS",
+            "exclude": "过期|剩余|流量|expire|traffic",
+            "rate": 2.5
+        },
+        {
+            "name": "Shadowsocks专用源",
+            "domain": "ss-sources",
+            "enable": true,
+            "sub": [
+                "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/ss.txt",
+                "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/ss.txt",
+                "https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/ss_iran.txt",
+                "https://raw.githubusercontent.com/4n0nymou3/ss-config-updater/refs/heads/main/configs.txt"
+            ],
+            "push_to": ["main"],
+            "liveness": true,
+            "rename": "SS",
+            "exclude": "过期|剩余|流量|expire|traffic",
+            "rate": 2.5
+        },
+        {
+            "name": "Trojan专用源",
+            "domain": "trojan-sources",
+            "enable": true,
+            "sub": [
+                "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/trojan.txt",
+                "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/trojan.txt",
+                "https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/trojan_iran.txt"
+            ],
+            "push_to": ["main"],
+            "liveness": true,
+            "rename": "Trojan",
+            "exclude": "过期|剩余|流量|expire|traffic",
+            "rate": 2.5
+        },
+        {
+            "name": "Epodonios系列订阅",
+            "domain": "epodonios-subs",
+            "enable": true,
+            "sub": [
+                "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub1.txt",
+                "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub2.txt",
+                "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub3.txt",
+                "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub4.txt",
+                "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub5.txt",
+                "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub6.txt",
+                "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub7.txt",
+                "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub8.txt",
+                "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub9.txt",
+                "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub10.txt",
+                "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub11.txt",
+                "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub12.txt",
+                "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub13.txt",
+                "https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Sub14.txt"
+            ],
+            "push_to": ["main"],
+            "liveness": true,
+            "rename": "Epodonios",
+            "exclude": "过期|剩余|流量|expire|traffic",
+            "rate": 2.5
+        },
+        {
+            "name": "MahdiBland聚合源",
+            "domain": "mahdibland-sources",
+            "enable": true,
+            "sub": [
+                "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/Eternity.txt",
+                "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/EternityAir.txt",
+                "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_base64.txt",
+                "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/airport_sub_merge.txt",
+                "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/airport_merge_base64.txt",
+                "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.txt"
+            ],
+            "push_to": ["main"],
+            "liveness": true,
+            "rename": "MahdiBland",
+            "exclude": "过期|剩余|流量|expire|traffic",
+            "rate": 2.5
+        },
+        {
+            "name": "10ium系列源",
+            "domain": "10ium-sources",
+            "enable": true,
+            "sub": [
+                "https://raw.githubusercontent.com/10ium/V2ray-Config/main/Splitted-By-Protocol/hysteria2.txt",
+                "https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/10ium_mixed_iran.txt"
+            ],
+            "push_to": ["main"],
+            "liveness": true,
+            "rename": "10ium",
+            "exclude": "过期|剩余|流量|expire|traffic",
+            "rate": 2.5
+        }
+    ],
+    "crawl": {
+        "enable": true,
+        "exclude": "过期|失效|expire|dead|剩余|流量|traffic",
+        "threshold": 5,
+        "pages": [
+            {
+                "enable": true,
+                "url": "https://gt.subin.sbs/feifeiadmim/ip/refs/heads/main/完整.yaml",
+                "include": "",
+                "exclude": "",
+                "push_to": ["main"]
+            },
+            {
+                "enable": true,
+                "url": "https://gt.subin.sbs/feifeiadmim/ip/refs/heads/main/1.yaml",
+                "include": "",
+                "exclude": "",
+                "push_to": ["main"]
+            },
+            {
+                "enable": true,
+                "url": "https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml",
+                "include": "",
+                "exclude": "",
+                "push_to": ["main"]
+            },
+            {
+                "enable": true,
+                "url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
+                "include": "",
+                "exclude": "",
+                "push_to": ["main"]
+            },
+            {
+                "enable": true,
+                "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
+                "include": "",
+                "exclude": "",
+                "push_to": ["main"]
+            },
+            {
+                "enable": true,
+                "url": "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash",
+                "include": "",
+                "exclude": "",
+                "push_to": ["main"]
+            },
+            {
+                "enable": true,
+                "url": "https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml",
+                "include": "",
+                "exclude": "",
+                "push_to": ["main"]
+            },
+            {
+                "enable": true,
+                "url": "https://raw.githubusercontent.com/firefoxmmx2/v2rayshare_subcription/main/subscription/clash_sub.yaml",
+                "include": "",
+                "exclude": "",
+                "push_to": ["main"]
+            },
+            {
+                "enable": true,
+                "url": "https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/c.yaml",
+                "include": "",
+                "exclude": "",
+                "push_to": ["main"]
+            },
+            {
+                "enable": true,
+                "url": "https://raw.githubusercontent.com/mfbpn/tg_mfbpn_sub/main/trial.yaml",
+                "include": "",
+                "exclude": "",
+                "push_to": ["main"]
+            },
+            {
+                "enable": true,
+                "url": "https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml",
+                "include": "",
+                "exclude": "",
+                "push_to": ["main"]
+            },
+            {
+                "enable": true,
+                "url": "https://raw.githubusercontent.com/kitcook/freeray/main/output.yaml",
+                "include": "",
+                "exclude": "",
+                "push_to": ["main"]
+            },
+            {
+                "enable": true,
+                "url": "https://raw.githubusercontent.com/bluesky8958/clash/main/clash.yaml",
+                "include": "",
+                "exclude": "",
+                "push_to": ["main"]
+            }
+        ],
+        "github": {
+            "enable": false,
+            "pages": 1,
+            "push_to": ["main"]
+        },
+        "telegram": {
+            "enable": false,
+            "pages": 1
+        }
+    },
+    "groups": {
+        "main": {
+            "emoji": true,
+            "list": true,
+            "targets": {
+                "clash": "aggregated-clash",
+                "v2ray": "aggregated-v2ray",
+                "singbox": "aggregated-singbox"
+            },
+            "regularize": {
+                "enable": true,
+                "locate": true,
+                "bits": 2
+            }
+        }
+    },
+    "storage": {
+        "engine": "local",
+        "token": "",
+        "base": "",
+        "domain": "",
+        "items": {
+            "aggregated-clash": {
+                "folderid": "output",
+                "fileid": "clash-config.yaml"
+            },
+            "aggregated-v2ray": {
+                "folderid": "output",
+                "fileid": "v2ray-config.txt"
+            },
+            "aggregated-singbox": {
+                "folderid": "output",
+                "fileid": "singbox-config.json"
+            }
+        }
+    },
+    "update": {
+        "enable": true,
+        "interval": 21600,
+        "strict": false
+    },
+    "delay": 5000
+}
